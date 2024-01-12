@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "b2f57e91fbbbf3b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd9bc3510804f2ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dfffdf6a12bff5f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Сущности/Сущность врага.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "13bae8997243320c",
+    "type": "split",
+    "children": [
+      {
+        "id": "39a8a8ef54cbe643",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f000b2e528ec2df6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2f430140e8d6663d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Атака/Алгоритм разделения массива инвентаря для атаки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de0a484ddeca04b7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0092af3582e6857e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 248.5
+  },
+  "right": {
+    "id": "7288eca368465ebe",
+    "type": "split",
+    "children": [
+      {
+        "id": "15f94ca92933b1a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd41faf76735355d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Сущности/Сущность врага.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1d67514b5c6ec7ba",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Сущности/Сущность врага.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b4fcdb4a460bcc33",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5e235f6e6ebbcf52",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Сущности/Сущность врага.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": true,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "dfffdf6a12bff5f1",
+  "lastOpenFiles": [
+    "Сущности/Сущность ГГ.md",
+    "Сущности/Дроп.md",
+    "Сущности/Сущность врага.md",
+    "Сущность врага.png",
+    "Сущности/Картинки/Дроп.png",
+    "Сущности/Массив скиллов.md",
+    "Сущности/Картинки/Сущность ГГ.png",
+    "Сущности/Картинки/Сущность ГГ.png",
+    "Сущности/Картинки/Массив скиллов.png",
+    "Сущности/Инвентарь.md",
+    "Сущности/Картинки/Инвентарь.png",
+    "Сущности/Картинки",
+    "Справочники/Справочник предметов.md",
+    "Справочники/Картинки/Справочник предметов.png",
+    "Справочники/Картинки",
+    "Справочники",
+    "Атака/Алгоритм расчета скалирования урона (АРСУ).md",
+    "Атака/Алгоритм разделения массива инвентаря для атаки.md",
+    "Атака/Алгоритм Атаки.md",
+    "Атака/Алгоритм расчета урона (АРУ).md",
+    "Сущности",
+    "Ы.md",
+    "Схема Ы.excalidraw.md",
+    "Настройки.md",
+    "Атака",
+    "Алгорит рассчета скаллирования урона (АРСУ).png",
+    "Атака/Картинки/Алгоритм рассчета урона (АРУ).png",
+    "Атака/Картинки/Алгорит рассчета скаллирования урона (АРСУ) 1.png",
+    "Выборы.md",
+    "Базовые идеи.md",
+    "ЛОР.md",
+    "Без названия.canvas",
+    "2024-01-12.md",
+    "Без названия 1.canvas",
+    "Атака/Картинки",
+    "Excalidraw/Архитектура.md",
+    "Excalidraw",
+    "Жопа",
+    "Welcome.md"
+  ]
+}
