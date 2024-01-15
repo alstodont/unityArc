@@ -15,30 +15,37 @@
       }
     },
     {
-      "query": "path:Сущности  ",
+      "query": "path:\"Сущности/Характеристики сущностей\"  ",
       "color": {
         "a": 1,
         "rgb": 14069084
       }
     },
     {
-      "query": "path:Справочники  ",
+      "query": "path:Сущности  ",
       "color": {
         "a": 1,
         "rgb": 11392604
+      }
+    },
+    {
+      "query": "path:Справочники  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084188
       }
     }
   ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.38612266112266,
-  "lineSizeMultiplier": 1.1212577962578,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.516112266112266,
-  "repelStrength": 11.5696465696466,
-  "linkStrength": 0.0753638253638254,
-  "linkDistance": 411,
-  "scale": 1.0000000000000027,
-  "close": true
+  "centerStrength": 0.541060291060291,
+  "repelStrength": 10.5717255717256,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.42967809143425423,
+  "close": false
 }
