@@ -1,0 +1,42 @@
+<mxfile host="Electron" modified="2024-01-17T17:33:04.954Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="qHz4VPs-y_qP-tTL8iF7" version="22.1.16" type="device">
+  <diagram name="Страница — 1" id="R87gwawpsRX5DZW33Yvw">
+    <mxGraphModel dx="2208" dy="-3857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-620" value="Метод смерти (Базовый)" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="4780" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-621" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-620" source="hZTHAR6i0K3fFT6IlkUh-622" target="hZTHAR6i0K3fFT6IlkUh-623">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-622" value="Сеттер урона" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-620">
+          <mxGeometry x="35" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-623" value="Destroy (this.Game object)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-620">
+          <mxGeometry x="15" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-624" value="Метод смерти (ГГ)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="4780" width="180" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-625" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-624" source="hZTHAR6i0K3fFT6IlkUh-626" target="hZTHAR6i0K3fFT6IlkUh-627">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-626" value="Сеттер урона" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-624">
+          <mxGeometry x="35" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-627" value="Destroy (this.Game object)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-624">
+          <mxGeometry x="15" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-628" value="Метод конца игры" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-624">
+          <mxGeometry x="15.00047619047615" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-629" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-624" source="hZTHAR6i0K3fFT6IlkUh-627" target="hZTHAR6i0K3fFT6IlkUh-628">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75.19047619047615" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
