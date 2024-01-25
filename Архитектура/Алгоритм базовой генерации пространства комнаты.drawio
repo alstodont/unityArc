@@ -1,0 +1,133 @@
+<mxfile host="Electron" modified="2024-01-12T19:14:45.631Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="cgL3iVgvTNb8c0LqmR79" version="22.1.16" type="device">
+  <diagram name="Страница — 1" id="R87gwawpsRX5DZW33Yvw">
+    <mxGraphModel dx="4208" dy="-146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-194" value="Алгоритм базовой генерации пространства комнаты" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2410" y="1240" width="730" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-196" target="hZTHAR6i0K3fFT6IlkUh-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-196" value="Для каждого из отмеченных отрезков:&amp;nbsp;&lt;br&gt;С шагом в одну длину шага опустить перпендикуляр вниз до ближайшего отрезка.&lt;br&gt;Если все они касаются пола, выбрать случайный.&lt;br&gt;Если только один касается отрезка, не являющегося полом, выбрать его.&lt;br&gt;Если несколько или все касаются отрезка, не являющегося полом, выбрать случайный" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-194">
+          <mxGeometry x="329" y="260" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-198" target="hZTHAR6i0K3fFT6IlkUh-200">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-198" value="Сформировать координатное пространство (Комнату) стандартного размера" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-194">
+          <mxGeometry x="169" y="40" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-200" target="hZTHAR6i0K3fFT6IlkUh-202">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-200" value="Сформировать в точке (0; 0) горизонтальную прямую линию до (0; &quot;Стандартный размер по х&quot;) -- пол" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-194">
+          <mxGeometry x="359" y="40" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-202" target="hZTHAR6i0K3fFT6IlkUh-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-202" value="Сгенерировать случайное количество&amp;nbsp; (7-20) отрезков (их размеры) со случайными размерами в&amp;nbsp;пределах1 -- 15 шагов&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-194">
+          <mxGeometry x="559" y="35" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-204" target="hZTHAR6i0K3fFT6IlkUh-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-204" value="Разделить комнату по у на 2 - 5 (Случайно) уровней так, чтобы расстояние от пола до первого уровня было &amp;gt;= высоты прыжка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-194">
+          <mxGeometry x="519" y="150" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-206" target="hZTHAR6i0K3fFT6IlkUh-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-206" value="Случайным образом распределить отрезки по уровням в равных долях, с округлением в большую сторону для более верхнего уровня" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-194">
+          <mxGeometry x="279" y="150" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-208" target="hZTHAR6i0K3fFT6IlkUh-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-208" value="Для каждого уровня, начиная с 1го от пола: Распределить платформы так, чтобы расстояние между ними было &amp;gt;= длине пролета, но так, чтобы соотношение для = к &amp;gt; , было приблизительно равно 70/30. отметить отрезки, для которых &amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-194">
+          <mxGeometry x="169" y="240" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-210" target="hZTHAR6i0K3fFT6IlkUh-212">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-210" value="Удалить все не выбранные перпендикуляры" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-194">
+          <mxGeometry x="569" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-212" target="hZTHAR6i0K3fFT6IlkUh-214">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-212" value="Определить все горизонтальные отрезки как платформы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-194">
+          <mxGeometry x="569" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-214" target="hZTHAR6i0K3fFT6IlkUh-216">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-214" value="Определить все вертикальные отрезки как подъёмники" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-194">
+          <mxGeometry x="428" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-216" target="hZTHAR6i0K3fFT6IlkUh-217">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-216" value="Записать в хранилище комнат для id комнаты координаты всех отрезков" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-194">
+          <mxGeometry x="289" y="470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-217" value="Хранилище комнат" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-194">
+          <mxGeometry x="159" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-221" target="hZTHAR6i0K3fFT6IlkUh-198">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-221" target="hZTHAR6i0K3fFT6IlkUh-216">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="460" />
+              <mxPoint x="349" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-220" value="id комнаты" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hZTHAR6i0K3fFT6IlkUh-219">
+          <mxGeometry x="-0.3454" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-221" value="id комнаты" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-194">
+          <mxGeometry x="30" y="45" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-222" value="Хранилище глобальных переменных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hZTHAR6i0K3fFT6IlkUh-194">
+          <mxGeometry x="600" y="290" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-222" target="hZTHAR6i0K3fFT6IlkUh-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-224" value="Длина шага" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hZTHAR6i0K3fFT6IlkUh-223">
+          <mxGeometry x="-0.1111" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-222" target="hZTHAR6i0K3fFT6IlkUh-208">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="250" />
+              <mxPoint x="289" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-226" value="Длина пролета" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hZTHAR6i0K3fFT6IlkUh-225">
+          <mxGeometry x="-0.103" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-227" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="hZTHAR6i0K3fFT6IlkUh-194" source="hZTHAR6i0K3fFT6IlkUh-222" target="hZTHAR6i0K3fFT6IlkUh-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-228" value="Длина шага" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hZTHAR6i0K3fFT6IlkUh-227">
+          <mxGeometry x="0.1127" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
