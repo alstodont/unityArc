@@ -8,31 +8,24 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:Атака  ",
+      "query": "path:\"Процесс атаки\"  ",
       "color": {
         "a": 1,
         "rgb": 14048348
       }
     },
     {
-      "query": "path:\"Сущности/Характеристики сущностей\"  ",
+      "query": "path:Персонажи  ",
       "color": {
         "a": 1,
         "rgb": 14069084
       }
     },
     {
-      "query": "path:Сущности  ",
-      "color": {
-        "a": 1,
-        "rgb": 11392604
-      }
-    },
-    {
       "query": "path:Справочники  ",
       "color": {
         "a": 1,
-        "rgb": 6084188
+        "rgb": 11392604
       }
     }
   ],
@@ -46,6 +39,6 @@
   "repelStrength": 10.5717255717256,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6554983534946957,
-  "close": false
+  "scale": 1.5255568449083927,
+  "close": true
 }

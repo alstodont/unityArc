@@ -1,0 +1,56 @@
+<mxfile host="Electron" modified="2024-01-28T16:16:57.513Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="DBy83Va2hAXbB2j0OONb" version="22.1.16" type="device">
+  <diagram name="Страница — 1" id="R87gwawpsRX5DZW33Yvw">
+    <mxGraphModel dx="6207" dy="59" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I8_YqKPrPAklGVPkxECB-142" value="Алгоритм появления персонажа" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3710" y="1230" width="300" height="680" as="geometry">
+            <mxRectangle x="-4070" y="1290" width="230" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8_YqKPrPAklGVPkxECB-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="I8_YqKPrPAklGVPkxECB-142" source="I8_YqKPrPAklGVPkxECB-144" target="I8_YqKPrPAklGVPkxECB-152">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8_YqKPrPAklGVPkxECB-144" value="Запустить анимацию появления персонажа" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I8_YqKPrPAklGVPkxECB-142">
+          <mxGeometry x="5" y="139" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I8_YqKPrPAklGVPkxECB-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="I8_YqKPrPAklGVPkxECB-142" source="I8_YqKPrPAklGVPkxECB-146" target="I8_YqKPrPAklGVPkxECB-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8_YqKPrPAklGVPkxECB-146" value="Отобразить модельку персонажа" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I8_YqKPrPAklGVPkxECB-142">
+          <mxGeometry x="5" y="299" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I8_YqKPrPAklGVPkxECB-147" value="Проставить для ГГ:&lt;br&gt;ХП актуальное = МАХ хп" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="I8_YqKPrPAklGVPkxECB-142">
+          <mxGeometry x="145" y="219" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I8_YqKPrPAklGVPkxECB-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="I8_YqKPrPAklGVPkxECB-142" source="I8_YqKPrPAklGVPkxECB-149" target="I8_YqKPrPAklGVPkxECB-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8_YqKPrPAklGVPkxECB-149" value="Запустить секундомер и рассчет кривой сложности" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="I8_YqKPrPAklGVPkxECB-142">
+          <mxGeometry x="5" y="389" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I8_YqKPrPAklGVPkxECB-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="I8_YqKPrPAklGVPkxECB-142" source="I8_YqKPrPAklGVPkxECB-152" target="I8_YqKPrPAklGVPkxECB-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8_YqKPrPAklGVPkxECB-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="I8_YqKPrPAklGVPkxECB-142" source="I8_YqKPrPAklGVPkxECB-152" target="I8_YqKPrPAklGVPkxECB-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8_YqKPrPAklGVPkxECB-152" value="Создать сущность ГГ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I8_YqKPrPAklGVPkxECB-142">
+          <mxGeometry x="5" y="219" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I8_YqKPrPAklGVPkxECB-153" value="Запросить из справочника id предметов с именами&amp;nbsp;&quot;EXP&quot; -- int enumExp и &quot;GOLD&quot; -- int enumGold" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I8_YqKPrPAklGVPkxECB-142">
+          <mxGeometry x="5" y="479" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="I8_YqKPrPAklGVPkxECB-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="I8_YqKPrPAklGVPkxECB-142" source="I8_YqKPrPAklGVPkxECB-155" target="I8_YqKPrPAklGVPkxECB-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8_YqKPrPAklGVPkxECB-155" value="Взять стартовую точку" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I8_YqKPrPAklGVPkxECB-142">
+          <mxGeometry x="5" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
