@@ -1,0 +1,134 @@
+<mxfile host="Electron" modified="2024-02-05T19:18:50.083Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="u_N-rdSbUXGE8pGZSkdn" version="22.1.16" type="device">
+  <diagram name="Страница — 1" id="x3ASPkyUIjZy-x1FBZUD">
+    <mxGraphModel dx="2889" dy="-5105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-329" value="Алгоритм добавления итема (inventoryType, drop object)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1570" y="6660" width="760" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-330" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-329" source="8_T74Xt0qUnq9rnjdWRC-331" target="8_T74Xt0qUnq9rnjdWRC-335">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-331" value="inventoryType, drop object" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-329">
+          <mxGeometry x="301" y="70" width="106" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-332" value="int i = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-329">
+          <mxGeometry x="294" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-333" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-329" source="8_T74Xt0qUnq9rnjdWRC-335" target="8_T74Xt0qUnq9rnjdWRC-332">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-334" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8_T74Xt0qUnq9rnjdWRC-333">
+          <mxGeometry x="-0.38" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-335" value="inventoryType.lengh == 0 ?" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-329">
+          <mxGeometry x="254" y="200" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-336" value="Добавить id предмета в inventoryType" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-329">
+          <mxGeometry x="294" y="577.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-337" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-329" source="8_T74Xt0qUnq9rnjdWRC-335" target="8_T74Xt0qUnq9rnjdWRC-336">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="454" y="227.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="254" y="227.5" />
+              <mxPoint x="54" y="227.5" />
+              <mxPoint x="54" y="607.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-338" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8_T74Xt0qUnq9rnjdWRC-337">
+          <mxGeometry x="-0.4213" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-339" value="inventoryType.i.id == drop.id?" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-329">
+          <mxGeometry x="229" y="382.8299999999999" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-340" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-329" source="8_T74Xt0qUnq9rnjdWRC-332" target="8_T74Xt0qUnq9rnjdWRC-339">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-341" value="Увеличить количество для этого id в массиве на drop.количество" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-329">
+          <mxGeometry x="534" y="382.83333333333303" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-342" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-329" source="8_T74Xt0qUnq9rnjdWRC-339" target="8_T74Xt0qUnq9rnjdWRC-341">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="564" y="412.83333333333303" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-343" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8_T74Xt0qUnq9rnjdWRC-342">
+          <mxGeometry x="-0.0739" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-344" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-329" source="8_T74Xt0qUnq9rnjdWRC-346" target="8_T74Xt0qUnq9rnjdWRC-336">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-345" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8_T74Xt0qUnq9rnjdWRC-344">
+          <mxGeometry x="-0.1441" y="4" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-346" value="i == inventoryType.length ?" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-329">
+          <mxGeometry x="219" y="477.5" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-347" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-329" source="8_T74Xt0qUnq9rnjdWRC-339" target="8_T74Xt0qUnq9rnjdWRC-346">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-348" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8_T74Xt0qUnq9rnjdWRC-347">
+          <mxGeometry x="-0.1614" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-349" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-329" source="8_T74Xt0qUnq9rnjdWRC-350" target="8_T74Xt0qUnq9rnjdWRC-339">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-350" value="i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-329">
+          <mxGeometry x="74" y="382.8299999999999" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-351" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-329" source="8_T74Xt0qUnq9rnjdWRC-346" target="8_T74Xt0qUnq9rnjdWRC-350">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-352" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8_T74Xt0qUnq9rnjdWRC-351">
+          <mxGeometry x="-0.4812" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-353" value="Destroy(drop object)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-329">
+          <mxGeometry x="293.99647058823484" y="667.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-354" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-329" source="8_T74Xt0qUnq9rnjdWRC-336" target="8_T74Xt0qUnq9rnjdWRC-353">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-355" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-329" source="8_T74Xt0qUnq9rnjdWRC-357" target="8_T74Xt0qUnq9rnjdWRC-359">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589.4705882352946" y="589.9999999999982" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-356" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8_T74Xt0qUnq9rnjdWRC-355">
+          <mxGeometry x="-0.182" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-357" value="itemDictionaryController&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;.getTypeByid(id) == multiplier&amp;nbsp;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-329">
+          <mxGeometry x="504" y="460" width="236" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-358" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-329" source="8_T74Xt0qUnq9rnjdWRC-341" target="8_T74Xt0qUnq9rnjdWRC-357">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="594.666666666667" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="594" y="450" />
+              <mxPoint x="622" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-359" value="Алгоритм пересчета статов" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-329">
+          <mxGeometry x="561.9961538461544" y="577.5" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
