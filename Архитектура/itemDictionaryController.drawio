@@ -1,0 +1,133 @@
+<mxfile host="Electron" modified="2024-02-05T19:39:13.866Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="AXO_0s6GKVYMGr2wwfQ_" version="22.1.16" type="device">
+  <diagram name="Страница — 1" id="x3ASPkyUIjZy-x1FBZUD">
+    <mxGraphModel dx="4581" dy="-5756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-745" value="itemDictionaryController" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1740" y="7060" width="860" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-746" value="getTypeByid (id)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-745">
+          <mxGeometry x="10" y="60" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-747" value="По id получить из справочника предметов type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-746">
+          <mxGeometry x="37" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-748" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-746" source="8_T74Xt0qUnq9rnjdWRC-749" target="8_T74Xt0qUnq9rnjdWRC-747">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-749" value="id" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-746">
+          <mxGeometry x="57" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-750" value="вернуть type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-746">
+          <mxGeometry x="37.00333333333401" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-751" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-746" source="8_T74Xt0qUnq9rnjdWRC-747" target="8_T74Xt0qUnq9rnjdWRC-750">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="97.33333333333348" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-752" value="getIncreaseByid (id)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-745">
+          <mxGeometry x="430" y="60" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-753" value="По id получить из справочника предметов increase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-752">
+          <mxGeometry x="37" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-754" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-752" source="8_T74Xt0qUnq9rnjdWRC-755" target="8_T74Xt0qUnq9rnjdWRC-753">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-755" value="id" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-752">
+          <mxGeometry x="57" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-756" value="вернуть increase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-752">
+          <mxGeometry x="37.00333333333401" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-757" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-752" source="8_T74Xt0qUnq9rnjdWRC-753" target="8_T74Xt0qUnq9rnjdWRC-756">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="97.33333333333348" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-758" value="getMultiplyByid (id)" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-745">
+          <mxGeometry x="220" y="60" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-759" value="По id получить из справочника предметов increase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-758">
+          <mxGeometry x="37" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-760" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-758" source="8_T74Xt0qUnq9rnjdWRC-761" target="8_T74Xt0qUnq9rnjdWRC-759">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-761" value="id" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-758">
+          <mxGeometry x="57" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-762" value="вернуть increase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-758">
+          <mxGeometry x="37.00333333333401" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-763" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-758" source="8_T74Xt0qUnq9rnjdWRC-759" target="8_T74Xt0qUnq9rnjdWRC-762">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="97.33333333333348" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-764" value="getDurationByid (id)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-745">
+          <mxGeometry x="640" y="60" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-765" value="По id получить из справочника предметов duration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-764">
+          <mxGeometry x="37" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-766" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-764" source="8_T74Xt0qUnq9rnjdWRC-767" target="8_T74Xt0qUnq9rnjdWRC-765">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-767" value="id" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-764">
+          <mxGeometry x="57" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-768" value="вернуть duration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-764">
+          <mxGeometry x="37.00333333333401" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-769" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-764" source="8_T74Xt0qUnq9rnjdWRC-765" target="8_T74Xt0qUnq9rnjdWRC-768">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="97.33333333333348" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-770" value="getChanceByid (id)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-745">
+          <mxGeometry x="10" y="390" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-771" value="По id получить из справочника предметов&amp;nbsp;chance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-770">
+          <mxGeometry x="37" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-772" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-770" source="8_T74Xt0qUnq9rnjdWRC-773" target="8_T74Xt0qUnq9rnjdWRC-771">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-773" value="id" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-770">
+          <mxGeometry x="57" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-774" value="вернуть chance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-770">
+          <mxGeometry x="37.00333333333401" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-775" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-770" source="8_T74Xt0qUnq9rnjdWRC-771" target="8_T74Xt0qUnq9rnjdWRC-774">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="97.33333333333348" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-776" value="getChanceIncreaseByid (id)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-745">
+          <mxGeometry x="220" y="390" width="310" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-777" value="По id получить из справочника предметов chanceIncrease" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-776">
+          <mxGeometry x="37" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-778" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-776" source="8_T74Xt0qUnq9rnjdWRC-779" target="8_T74Xt0qUnq9rnjdWRC-777">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-779" value="id" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-776">
+          <mxGeometry x="57" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-780" value="вернуть chanceIncrease" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8_T74Xt0qUnq9rnjdWRC-776">
+          <mxGeometry x="37.00333333333401" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_T74Xt0qUnq9rnjdWRC-781" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="8_T74Xt0qUnq9rnjdWRC-776" source="8_T74Xt0qUnq9rnjdWRC-777" target="8_T74Xt0qUnq9rnjdWRC-780">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="97.33333333333348" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

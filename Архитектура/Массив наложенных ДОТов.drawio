@@ -1,0 +1,42 @@
+<mxfile host="Electron" modified="2024-01-13T13:25:00.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="z832BqYyS0XKuxpQe6F7" version="22.1.16" type="device">
+  <diagram name="Страница — 1" id="R87gwawpsRX5DZW33Yvw">
+    <mxGraphModel dx="73" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-379" value="Массив наложенных&lt;br&gt;&amp;nbsp;ДОТов&amp;nbsp;(МНД)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="100" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-380" value="id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-381" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hZTHAR6i0K3fFT6IlkUh-379" target="hZTHAR6i0K3fFT6IlkUh-380">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1770" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1770" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-382" value="Кол-во" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-383" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hZTHAR6i0K3fFT6IlkUh-379" target="hZTHAR6i0K3fFT6IlkUh-382">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-384" value="Оставшееся время" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-385" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hZTHAR6i0K3fFT6IlkUh-379" target="hZTHAR6i0K3fFT6IlkUh-384">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-386" value="Время старта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hZTHAR6i0K3fFT6IlkUh-387" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hZTHAR6i0K3fFT6IlkUh-379" target="hZTHAR6i0K3fFT6IlkUh-386">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
